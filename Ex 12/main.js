@@ -1,2 +1,5 @@
-var friendsName = ["Mubashir", "Abdullah", "Shafay", "Akbar"];
-friendsName.forEach(function (friendname) { return console.log("Hello ".concat(friendname, " How are you ")); });
+"use strict";
+//Array List
+let friendsName = ["Mubashir", "Abdullah", "Shafay", "Akbar"];
+//For-Each loop and backtick add the variable in the backtick
+friendsName.forEach(friendname => console.log(`Hello ${friendname} How are you `));

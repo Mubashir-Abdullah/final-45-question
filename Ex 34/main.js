@@ -1,8 +1,8 @@
+"use strict";
 //creating Array
-var pizza = ["Chicken Tika", "Malai Cheese", "Fajita"];
+let pizza = ["Chicken Tika", "Malai Cheese", "Fajita"];
 //for-loop
-for (var _i = 0, pizza_1 = pizza; _i < pizza_1.length; _i++) {
-    var onePizza = pizza_1[_i];
-    console.log("I like ".concat(onePizza, " pizza"));
+for (let onePizza of pizza) {
+    console.log(`I like ${onePizza} pizza`);
 }
 console.log("Pizza is Love");

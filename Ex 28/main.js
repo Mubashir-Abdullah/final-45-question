@@ -1,5 +1,6 @@
+"use strict";
 //Define age
-var age = 18;
+let age = 18;
 //check a age baby to Elders /if-else 
 if (age < 2) {
     console.log("you are a baby");

@@ -1,4 +1,5 @@
-var alienColor = "Green";
+"use strict";
+let alienColor = "Green";
 // First Version
 if (alienColor === "Green") {
     console.log("\nPlayer just earned 5 point for shooting the alien\n");

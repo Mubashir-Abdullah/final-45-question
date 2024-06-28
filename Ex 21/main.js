@@ -1,4 +1,5 @@
-var itCourse = {
+"use strict";
+let itCourse = {
     course: "TypeScript",
     location: "Governor House Sindh ",
     student: 50000

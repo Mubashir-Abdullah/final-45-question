@@ -1,4 +1,7 @@
-var whitespaceName = "\n\t Mubashir\t\n";
+"use strict";
+//[new line and white-space 
+let whitespaceName = "\n\t Mubashir\t\n";
 console.log(whitespaceName);
-var withoutspaceName = whitespaceName.trim();
+//whith-Space wiht [trim] mathod 
+let withoutspaceName = whitespaceName.trim();
 console.log(withoutspaceName);

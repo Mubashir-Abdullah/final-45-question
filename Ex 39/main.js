@@ -1,5 +1,6 @@
+"use strict";
 function city_country(city, country) {
-    return "".concat(city, ",").concat(country);
+    return `${city},${country}`;
 }
 // first calling a function and he is not print just save value
 city_country("karachi", "pakistan");

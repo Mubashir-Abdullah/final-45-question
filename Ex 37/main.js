@@ -1,8 +1,7 @@
+"use strict";
 //creating a function
-function make_shirt(size, printmessage) {
-    if (size === void 0) { size = "large"; }
-    if (printmessage === void 0) { printmessage = "I love TypeScript"; }
-    console.log("Creating a ".concat(size, " shirt with the ").concat(printmessage, " print on shirt"));
+function make_shirt(size = "large", printmessage = "I love TypeScript") {
+    console.log(`Creating a ${size} shirt with the ${printmessage} print on shirt`);
 }
 //first calling a function by-default 
 make_shirt();

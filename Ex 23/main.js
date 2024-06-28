@@ -1,6 +1,7 @@
+"use strict";
 // making a variebles  
-var five = 5;
-var ten = 10;
+let five = 5;
+let ten = 10;
 //test 1
 console.log("\nFive is equal to 5?");
 console.log(five == 5);

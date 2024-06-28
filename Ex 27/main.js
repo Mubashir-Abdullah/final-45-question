@@ -1,4 +1,5 @@
-var alienColor = "green";
+"use strict";
+let alienColor = "green";
 if (alienColor === "green") {
     console.log("\n(version 1) You shot down green alien you have earned 5 point\n");
 }
@@ -9,7 +10,7 @@ else if (alienColor === "red") {
     console.log("\nYou shot down red alien you have earned 15 point\n");
 }
 //Version 2
-var alienColor2 = "yellow";
+let alienColor2 = "yellow";
 if (alienColor2 === "green") {
     console.log("\nYou shot down green alien you have earned 5 point\n");
 }
@@ -20,7 +21,7 @@ else if (alienColor2 === "red") {
     console.log("\nYou shot down red alien you have earned 15 point\n");
 }
 //version 3
-var alienColor3 = "red";
+let alienColor3 = "red";
 if (alienColor3 === "green") {
     console.log("\nYou shot down green alien you have earned 5 point\n");
 }

@@ -1,21 +1,13 @@
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
+"use strict";
 //Create a Array list 
-var countriesTovisit = ["China", "Denmark ", "Brazil", "Argentina "];
+let countriesTovisit = ["China", "Denmark ", "Brazil", "Argentina "];
 console.log("\nOrignal Order:", countriesTovisit);
 //Copy create and Alphabetical order list 
-console.log("\nAlphabetical order:", __spreadArray([], countriesTovisit, true).sort());
+console.log("\nAlphabetical order:", [...countriesTovisit].sort());
 //Check the orignal order in still- array-list
 console.log("\nStill in orignal order:", countriesTovisit);
 //new copy create and that reverse Array-List
-console.log("\nReverse order:", __spreadArray([], countriesTovisit, true).reverse());
+console.log("\nReverse order:", [...countriesTovisit].reverse());
 //again Check the orignal order in still array-list
 console.log("\nStill in orignal order:", countriesTovisit);
 //change the Orignal Array in Reverse Condition

@@ -1,9 +1,11 @@
+"use strict";
 //Define Variabale
-var alienColor = "Black";
+let alienColor = "Black";
+//true condition
 if (alienColor === "Black") {
     console.log("Alien color is Black player just earned 5 points ");
 }
-//F
+//False Condition
 if (alienColor === "White") {
     console.log("Alien color is white ");
 }

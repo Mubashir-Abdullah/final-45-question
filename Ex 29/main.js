@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //creating a array
 let favorite_Fruit = ["apple", "mango", "orange"];
 //includes/ check value and run value and not true and not run value

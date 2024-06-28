@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let apple = "apple";
 let uppercaseApple = "APPLE";
 let ten = 10;

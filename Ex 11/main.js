@@ -1,2 +1,5 @@
-var friendName = ["Mubashir", "Shafay", "AKbar"];
-friendName.forEach(function (friendname) { return console.log(friendname); });
+"use strict";
+//Array list name
+let friendName = ["Mubashir", "Shafay", "AKbar"];
+//forEach loop line to line list 
+friendName.forEach(friendname => console.log(friendname));

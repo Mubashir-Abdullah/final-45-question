@@ -1,10 +1,8 @@
-function makeSandwich() {
-    var items = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        items[_i] = arguments[_i];
-    }
+"use strict";
+//function create and optional 
+function makeSandwich(...items) {
     console.log("\nMaking a sandwich with the following items: \n");
-    items.forEach(function (singleItem) { return console.log("-" + singleItem); });
+    items.forEach(singleItem => console.log("-" + singleItem));
     console.log("\n Now Enjoy Sandwich");
 }
 //Call the function 3 times with 3 differnt number of arguments
